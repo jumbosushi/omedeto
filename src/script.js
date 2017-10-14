@@ -26,7 +26,7 @@ function getNewAudio() {
   var newAudioSource = audioSource[getRandom(0,4)]
   var newAudioNode = document.createElement("audio")
   newAudioNode.id = "audio-" + count
-  newAudioNode.src = "../media/" + newAudioSource + ".mp3"
+  newAudioNode.src = "../media/audio/" + newAudioSource + ".mp3"
   audioContainer.appendChild(newAudioNode)
   return newAudioNode
 }
