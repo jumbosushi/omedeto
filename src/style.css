@@ -1,0 +1,12 @@
+body: {
+  background-image: url("./media/bdaycake.png");
+  background-repeat: repeat;
+}
+
+[id^=dad] {
+  position: absolute;
+  z-index:1;
+  border; 1px solid black;
+  width: 200px;
+  height: 200px;
+}
