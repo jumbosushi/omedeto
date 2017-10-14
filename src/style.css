@@ -3,6 +3,14 @@ body: {
   background-repeat: repeat;
 }
 
+p {
+  text-align: center;
+}
+
+#count-tracker: {
+  font-size: 40px;
+}
+
 [id^=dad] {
   position: absolute;
   z-index:1;

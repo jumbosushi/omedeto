@@ -10,6 +10,8 @@ function addNewImg() {
   var imgClone = getNewImg()
   var audioClone = getNewAudio()
   count++
+  var counter = document.getElementById("count-tracker")
+  counter.innerHTML = "おめでとうカウント: " + count
   play(imgClone.id, audioClone.id)
 }
 
