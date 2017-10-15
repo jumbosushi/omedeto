@@ -28,7 +28,8 @@ function getNewAudio() {
   var newAudioSource = audioSource[getRandom(0,4)]
   var newAudioNode = document.createElement("audio")
   newAudioNode.id = "audio-" + count
-  newAudioNode.src = "../media/audio/" + newAudioSource + ".mp3"
+  var githubContentLink = "https://raw.githubusercontent.com/jumbosushi/omedeto/master/media/audio/"
+  newAudioNode.src = githubContentLink + newAudioSource + ".mp3"
   audioContainer.appendChild(newAudioNode)
   return newAudioNode
 }
