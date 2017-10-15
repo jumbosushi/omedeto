@@ -58,7 +58,6 @@ function getRandomMarginTop() {
 }
 
 $(document).ready(function(e) {
-  addNewImg()
   for (var i = 0; i < 60; i++) {
     var rand = getRandom(1000, 7000)
     setTimeout(function() {
